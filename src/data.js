@@ -2,7 +2,7 @@ export const socialMediaFollowrs = [
   {
     id: 1,
     platform: "facebook",
-    platformIcone: "icone-facebook.svg",
+    platformIcon: "./images/icon-facebook.svg",
     username: "@nathanf",
     totalFolowrs: 1987,
     todayFollowrs: 12,
@@ -10,7 +10,7 @@ export const socialMediaFollowrs = [
   {
     id: 2,
     platform: "twitter",
-    platformIcone: "icone-twitter.svg",
+    platformIcon: "./images/icon-twitter.svg",
     username: " @nathanf",
     totalFolowrs: 1044,
     todayFollowrs: 12,
@@ -18,7 +18,7 @@ export const socialMediaFollowrs = [
   {
     id: 3,
     platform: "instagram",
-    platformIcone: "icone-instagram.svg",
+    platformIcon: "./images/icon-instagram.svg",
     username: "@realnathanf",
     totalFolowrs: "11k",
     todayFollowrs: 1099,
@@ -26,9 +26,68 @@ export const socialMediaFollowrs = [
   {
     id: 1,
     platform: "youtube",
-    platformIcone: "icone-youtube.svg",
+    platformIcon: "./images/icon-youtube.svg",
     username: "Nathan F.",
     totalFolowrs: 8239,
     todayFollowrs: 144,
+  },
+];
+
+export const overviewData = [
+  {
+    id: 1,
+    label: " Page Views",
+    icon: "./images/icon-facebook.svg",
+    number: "87",
+    ratio: "3%",
+  },
+  {
+    id: 2,
+    label: "Likes",
+    icon: "./images/icon-facebook.svg",
+    number: "52",
+    ratio: "2%",
+  },
+  {
+    id: 3,
+    label: "Likes",
+    icon: "./images/icon-instagram.svg",
+    number: "5462",
+    ratio: "",
+  },
+  {
+    id: 4,
+    label: "Likes",
+    icon: "./images/icon-instagram.svg",
+    number: "52k",
+    ratio: "1375%",
+  },
+  {
+    id: 5,
+    label: "Retweets",
+    icon: "./images/icon-twitter.svg",
+    number: "117",
+    ratio: "303%",
+  },
+  {
+    id: 6,
+    label: "Likes",
+    icon: "./images/icon-twitter.svg",
+    number: "507",
+    ratio: "553%",
+  },
+  {
+    id: 5,
+    label: "likes",
+    icon: "./images/icon-youtube.svg",
+    number: "107",
+    ratio: "19%",
+  },
+  {
+    id: 6,
+    label: "Total Views",
+    icon: "./images/icon-youtube.svg",
+    number: "1407",
+    ratio: "12%",
   },
 ];
