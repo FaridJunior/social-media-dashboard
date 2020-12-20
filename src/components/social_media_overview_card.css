@@ -1,0 +1,47 @@
+.social__media__overview__card {
+  cursor: pointer;
+  position: relative;
+  height: 8rem;
+  border-radius: 4px;
+  background-color: var(--cardBG);
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  overflow: hidden;
+}
+
+.social__media__overview__card:hover::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  opacity: 0.1;
+}
+
+.social__media__overview__card *:nth-child(2n) {
+  justify-self: end;
+}
+.social__media__overview__card *:nth-child(3),
+.social__media__overview__card *:nth-child(4) {
+  align-self: end;
+}
+
+.social__media__overview__card .label {
+  color: var(--main-text);
+  font-weight: 700;
+  opacity: 0.4;
+}
+.social__media__overview__card .number {
+  color: var(--main-text);
+  font-size: 1.5rem;
+}
+
+.social__media__overview__card .ratio {
+  color: var(--lime-green);
+}
+.ratio__icon {
+  margin-right: 2px;
+}

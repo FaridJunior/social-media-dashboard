@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./attribution.css";
 function Attribution() {
   return (
     <div className="attribution">

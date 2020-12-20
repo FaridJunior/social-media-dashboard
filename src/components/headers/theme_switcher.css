@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
   width: 44px;
-  height: 28px;
+  height: 24px;
 }
 .theme__switcher input {
   opacity: 0;
@@ -16,14 +16,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--primary-linea-gradient);
+  background: var(--toggle);
   transition: 0.4s;
 }
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 22px;
+  width: 22px;
   left: 1px;
   bottom: 1px;
   background-color: white;
@@ -35,7 +35,7 @@ input:focus ~ .slider {
   box-shadow: 0 0 1px #2196f3;
 }
 input:checked ~ .slider:before {
-  transform: translateX(16px);
+  transform: translateX(20px);
 }
 
 .slider.round {

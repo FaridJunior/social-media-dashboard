@@ -24,7 +24,7 @@ export const socialMediaFollowrs = [
     todayFollowrs: 1099,
   },
   {
-    id: 1,
+    id: 4,
     platform: "youtube",
     platformIcon: "./images/icon-youtube.svg",
     username: "Nathan F.",
@@ -43,6 +43,7 @@ export const overviewData = [
   },
   {
     id: 2,
+    state: "danger",
     label: "Likes",
     icon: "./images/icon-facebook.svg",
     number: "52",
@@ -53,7 +54,7 @@ export const overviewData = [
     label: "Likes",
     icon: "./images/icon-instagram.svg",
     number: "5462",
-    ratio: "",
+    ratio: "2257%",
   },
   {
     id: 4,
@@ -77,14 +78,16 @@ export const overviewData = [
     ratio: "553%",
   },
   {
-    id: 5,
+    id: 7,
+    state: "danger",
     label: "likes",
     icon: "./images/icon-youtube.svg",
     number: "107",
     ratio: "19%",
   },
   {
-    id: 6,
+    id: 8,
+    state: "danger",
     label: "Total Views",
     icon: "./images/icon-youtube.svg",
     number: "1407",

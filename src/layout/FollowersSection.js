@@ -3,10 +3,10 @@ import FollowersCard from "../components/FollowersCard";
 
 function FollowersSection({ socialMediaFollowrs }) {
   return (
-    <section>
+    <section className="followers__section main-grid">
       {socialMediaFollowrs &&
-        socialMediaFollowrs.map((data) => (
-          <FollowersCard key={data.id} data={data} />
+        socialMediaFollowrs.map((data, index) => (
+          <FollowersCard key={data.id} data={data} index={index} />
         ))}
     </section>
   );

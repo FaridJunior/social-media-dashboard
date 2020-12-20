@@ -1,0 +1,23 @@
+.main__header,
+.secondary__header {
+  padding: 3rem 0px;
+}
+.secondary__header {
+  padding-bottom: 0rem;
+}
+.main__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__header__heading {
+  margin-bottom: 0.2rem;
+}
+.main__header__heading,
+.secondary__header__heading {
+  color: var(--main-text);
+}
+.main__header__subtitles {
+  color: var(--secondary-text);
+  margin: 0px;
+}
