@@ -8,8 +8,12 @@ import "./style.css";
 import Attribution from "./components/Attribution/Attribution";
 function App() {
   const [theme, setTheme] = useState(false);
+  const appClass = () => {
+    const themeName = theme ? "light-theme" : "dark-theme";
+    return "App " + themeName;
+  };
   return (
-    <div className={"App " + `${theme ? "light-theme" : "dark-theme"}`}>
+    <div className={appClass()}>
       <div className="container">
         <MainHeader theme={theme} setTheme={setTheme} />
         <FollowersSection socialMediaFollowrs={socialMediaFollowrs} />
