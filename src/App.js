@@ -12,6 +12,7 @@ function App() {
     const themeName = theme ? "light-theme" : "dark-theme";
     return "App " + themeName;
   };
+
   return (
     <div className={appClass()}>
       <div className="container">
