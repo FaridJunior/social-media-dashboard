@@ -1,5 +1,4 @@
 import React from "react";
-import DangerRatio from "./DangerRatio";
 import "./social_media_overview_card.css";
 
 function SocialMediaOverviewCard({ overview, index }) {
